@@ -23,7 +23,6 @@ void ft_print_comb2(void){
 	thousand = 0;
 
 	while(thousand < 10){
-		
 		while(hundreds < 10){
 			tens = thousand;
 			unit = hundreds + 1;
@@ -47,12 +46,9 @@ void ft_print_comb2(void){
 				unit = 0;
 				tens ++;
 			}
-
 			hundreds ++;
 		}
 		hundreds = 0;
 		thousand ++;
 	}
-
-
 }
